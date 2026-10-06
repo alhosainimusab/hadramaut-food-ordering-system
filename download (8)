@@ -1,0 +1,26 @@
+# Admin-uploaded menu images (seed images in assets/img/menu are tracked)
+public/assets/img/uploads/*
+!public/assets/img/uploads/.gitkeep
+
+# Local overrides / secrets
+.env
+src/config.local.php
+
+# Dependencies (none required, but keep them out if added later)
+/vendor/
+/node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# IDE / OS
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+desktop.ini

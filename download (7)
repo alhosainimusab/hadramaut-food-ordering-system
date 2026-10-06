@@ -1,0 +1,17 @@
+# Normalise line endings (the original files were CRLF from Windows/XAMPP)
+* text=auto eol=lf
+
+*.php  text diff=php
+*.sql  text
+*.css  text diff=css
+*.js   text
+*.md   text diff=markdown
+*.sh   text eol=lf
+*.yml  text
+
+*.jpg  binary
+*.jpeg binary
+*.png  binary
+*.gif  binary
+*.webp binary
+
